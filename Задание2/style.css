@@ -1,0 +1,36 @@
+.row {
+	display: flex;
+	margin-bottom: 10px;
+	height: 50px;
+}
+.row_cell {
+	flex: 1;
+	border: 1px solid black;
+	text-align: center;
+}
+.row_cell--2 {
+	flex: 2;
+}
+.row_cell--3 {
+	flex: 3;
+}
+.row_cell--top {
+	align-self: flex-start;
+}
+.row_cell--bottom {
+  align-self: flex-end;
+}
+.row_cell--center {
+	align-self: center;
+}
+.row--top {
+	align-items: flex-start;
+}
+.row--center {
+	align-items: center;
+}
+.row--bottom {
+	align-items: flex-end;
+}
+
+

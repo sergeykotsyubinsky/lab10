@@ -1,0 +1,23 @@
+main {
+	height: calc(100vh - 40vh);
+	display: flex;
+}
+body {
+ 	display: flex;
+	flex-direction: column;
+}
+header, footer {
+	height: 20vh; 
+	background-color: yellow;
+}
+nav, aside {
+ 	width: 20vw;
+ 	background-color: red;
+}
+article {
+	flex: 1;
+	background-color: grey;
+}
+nav {
+	order: -1;
+}

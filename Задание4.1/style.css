@@ -1,0 +1,12 @@
+body {
+	display: flex;
+	height: 100vh;
+}
+aside {
+	width: 20vw;
+	background-color: blue;
+}
+main {
+	flex: 1;
+	background-color: grey;
+}

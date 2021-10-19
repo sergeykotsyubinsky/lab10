@@ -1,0 +1,12 @@
+.media {
+	display: flex;
+	align-items: flex-start;
+	border: 1px solid black;
+}
+.media-body {
+	flex: 1;
+}
+img{
+	height: 30px;
+	width: 40px;
+}

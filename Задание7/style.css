@@ -1,0 +1,10 @@
+.form { 
+  display: flex;
+  margin-bottom: 5px;
+}
+.form__field {
+	flex: 1;
+}
+.container{
+	width: 50vw;
+}
